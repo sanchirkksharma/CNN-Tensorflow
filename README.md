@@ -1,26 +1,26 @@
 # CNN-Tensorflow
-Handwritten Digits Classification using TensorFlow:
+**Handwritten Digits Classification using TensorFlow:**
 
 This project demonstrates a basic neural network model built with TensorFlow and Keras to classify handwritten digits from the MNIST dataset. It includes both a simple logistic regression and a multi-layer neural network using ReLU activation.
 
-Project Structure:
+**Project Structure:**
 1. handwritten_digits_classification.ipynb – Jupyter notebook with step-by-step implementation
 2. MNIST dataset – Loaded directly using Keras
 3. Visualization – Includes heatmap of confusion matrix for prediction analysis
 
-Model Summary:
+**Model Summary:**
 
--->Model 1: Logistic Regression
+**-->Model 1:**
 
-Architecture: Single dense layer with sigmoid activation
+Logistic Regression Architecture: Single dense layer with sigmoid activation
 
 Input: Flattened 28x28 images (784 features)
 
 Accuracy: Evaluated on test data
 
--->Model 2: Deep Neural Network
+**-->Model 2:**
 
-Architecture: Dense layer with 100 neurons and ReLU activation, Output layer with 10 neurons (one per digit) and sigmoid activation
+Deep Neural Network Architecture: Dense layer with 100 neurons and ReLU activation, Output layer with 10 neurons (one per digit) and sigmoid activation
 
 Loss Function: Sparse Categorical Crossentropy
 
@@ -28,7 +28,7 @@ Optimizer: Adam
 
 Accuracy: Improved over Model 1
 
-How to Run:
+**How to Run:**
 
 --> Clone the repository:
 git clone https://github.com/sanchirkksharma/CNN-Tensorflow.git
